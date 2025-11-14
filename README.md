@@ -2,6 +2,10 @@
 
 React application that allows users to view exchange rates for a selected base currency against other currencies over the last 7 days from a selected date. Users can explore historical exchange rate data up to 90 days in the past.
 
+## Live Demo
+
+🌐 **[View Live Demo](https://exchange-rate-blush.vercel.app/)**
+
 ## Features
 
 - **Date Selection**: Select any date up to 90 days in the past to view exchange rates
@@ -16,7 +20,7 @@ React application that allows users to view exchange rates for a selected base c
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/bazenkoy/exchange-rate.git
 cd exchange-rate
 ```
 
@@ -102,7 +106,7 @@ exchange-rate/
 
 ## API
 
-The application uses the [currency-api](https://github.com/fawazahmed0/currency-api) service:
+The application uses the [currency-api](https://github.com/fawazahmed0/exchange-api) service:
 
 - **Available Currencies**: `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json`
 - **Exchange Rates**: `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@{date}/v1/currencies/{currency}.json`
